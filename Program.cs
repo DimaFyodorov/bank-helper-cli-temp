@@ -10,7 +10,7 @@ class Program
         int days = 0;
         decimal rate = 0;
 
-        while (days == 0 || deposit <= 0)
+        while (days == 0 || deposit == 0)
         {
             Console.Write("Введите сумму вклада: ");
             deposit = Convert.ToDecimal(Console.ReadLine());
@@ -31,12 +31,6 @@ class Program
                 "3" => (365, 0.1250m),
                 _ => (0, 0m)
             };
-
-            if (days == 0 || deposit <= 0)
-            {
-                Console.WriteLine("\n[Ошибка] Неверно выбран вариант срока или введена некорректная сумма.");
-                continue;
-            }
         }
 
         decimal interest = deposit * rate * days / 365m;
