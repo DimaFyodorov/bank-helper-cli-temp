@@ -1,0 +1,69 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="JviehpaqI1WEFNtJbQzw">
+    <mxGraphModel dx="1929" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=15;align=center;verticalAlign=middle;" value="Начало" vertex="1">
+          <mxGeometry height="55" width="200" x="490" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Подготовить исходные значения:&lt;br&gt;сумма вклада = 0;&lt;br&gt;срок = 0; ставка = 0" vertex="1">
+          <mxGeometry height="105" width="400" x="390" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Ввести сумму вклада" vertex="1">
+          <mxGeometry height="65" width="300" x="440" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Выбрать срок вклада:&lt;br&gt;1 — 91 день, 11,50%;&lt;br&gt;2 — 181 день, 11,75%;&lt;br&gt;3 — 365 дней, 12,50%" vertex="1">
+          <mxGeometry height="125" width="450" x="365" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Определить срок и ставку&lt;br&gt;по выбранному варианту" vertex="1">
+          <mxGeometry height="85" width="400" x="390" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Сумма вклада ≠ 0&lt;br&gt;И выбран допустимый срок?" vertex="1">
+          <mxGeometry height="135" width="320" x="430" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Рассчитать проценты:&lt;br&gt;проценты = сумма × ставка × дни / 365&lt;br&gt;&lt;br&gt;Рассчитать итоговую сумму:&lt;br&gt;итог = сумма + проценты" vertex="1">
+          <mxGeometry height="150" width="500" x="340" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;" value="Вывести результаты:&lt;br&gt;первоначальный взнос;&lt;br&gt;срок и годовую ставку;&lt;br&gt;начисленные проценты;&lt;br&gt;итоговую сумму" vertex="1">
+          <mxGeometry height="145" width="450" x="365" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=15;align=center;verticalAlign=middle;" value="Конец" vertex="1">
+          <mxGeometry height="55" width="200" x="490" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-10" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-11" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-12" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-13" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-14" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-15" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-7" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-16" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-17" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;" target="A7xzAcbBAMtFKGFMNIJp-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7xzAcbBAMtFKGFMNIJp-18" edge="1" parent="1" source="A7xzAcbBAMtFKGFMNIJp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="A7xzAcbBAMtFKGFMNIJp-3" value="Нет">
+          <mxGeometry relative="1" x="-0.2954" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1107" />
+              <mxPoint x="1040" y="647.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
